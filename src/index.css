@@ -35,9 +35,11 @@ body{
 section {
   min-height: 100vh;
   padding: 10rem 9% 2rem ;
+  max-width: auto;
+
 }
 
-.header{
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -47,6 +49,9 @@ section {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+border: 1rem solid rebeccapurple;
+margin: auto;
+
 
 }
 
@@ -55,4 +60,24 @@ section {
   color: var(--text-color);
   font-weight: 700;
   cursor: default;
+}
+
+.navbar a{
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-left: 4rem;
+  font-weight: 700;
+
+
+}
+
+.navbar a:hover,
+.navbar a.active{
+  color: var(--text-color);
+
+}
+
+#menu-bar{
+  font-family: 3.6rem;
+  color: var(--text-color);
 }
