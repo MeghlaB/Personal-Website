@@ -5,7 +5,7 @@ import Footer from '../Components/Footer/Footer'
 // className='mx-2 md:mx-4 lg:mx-6 bg-[#F8F5F4]'
 function MainLayout() {
   return (
-    <div>
+    <div className='bg-[#0D0518] min-h-screen'>
      <header >
         <Navbar/>
       </header>

@@ -4,9 +4,35 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div>
-    
+ <div className="bg-[#0D0518] py-8">
+     <div className="navbar  shadow-sm border border-gray-400 rounded-full py-1 max-w-sm lg:max-w-2xl mx-auto px-5 ">
+  <div className="navbar-start">
+    <div className="dropdown">
+      <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabIndex={0}
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        <li><a>Item 1</a></li>
+     
+      </ul>
     </div>
+    <img src="/src/assets/logo.png" className="w-15 h-15"></img>
+  </div>
+  <div className="navbar-center hidden lg:flex">
+    <ul className="menu menu-horizontal px-1">
+      <li><a>Home</a></li>
+      <li><a>About</a></li>
+       <li><a>Skill</a></li>
+       <li><a>Contact</a></li>
+    </ul>
+  </div>
+  <div className="navbar-end">
+    <button className="btn btn-dash">Resume</button>
+  </div>
+</div>
+ </div>
   );
 }
 
