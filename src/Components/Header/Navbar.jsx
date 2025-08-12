@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
- <div className="bg-[#0D0518] py-8">
+ <div className="bg-[#010121] py-8">
      <div className="navbar  shadow-sm border border-gray-400 rounded-full py-1 max-w-sm lg:max-w-2xl mx-auto px-5 ">
   <div className="navbar-start">
     <div className="dropdown">
