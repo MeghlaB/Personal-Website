@@ -126,7 +126,7 @@ const Banner = () => {
           <div className="flex flex-col gap-4 sm:gap-6 items-start text-left order-2 lg:order-1 animate-fade-in-up">
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-gray-900/80 dark:bg-white/10 border border-gray-700 dark:border-gray-600 rounded-full text-xs sm:text-sm text-gray-200 dark:text-gray-300 backdrop-blur-sm hover:bg-gray-800 dark:hover:bg-white/20 transition-all duration-300">
               <DotIcon />
-              Welcome to my universe
+             Meghla Biswas
             </div>
 
             <div className="relative">
@@ -134,7 +134,7 @@ const Banner = () => {
                     Hello <br />
                     I&apos;m{' '}
                     <span className="bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent">
-                       Meghla Biswas
+                      Fron End Devloper
                     </span>
                 </h1>
             </div>
